@@ -31,8 +31,7 @@ jobs:
       - name : set up python
         uses: actions/setup-python@v1
         with:
-        
-        python-version: '3.7'
+          python-version: '3.7'
       - run: pip install pytest requests
       - name: Run system tests
         working-directory:
