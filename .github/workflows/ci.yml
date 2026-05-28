@@ -39,3 +39,4 @@ jobs:
       - name: Bring server down
         working-directory:
         run: docker compose down
+        
